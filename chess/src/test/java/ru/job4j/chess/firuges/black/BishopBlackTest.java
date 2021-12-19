@@ -23,7 +23,7 @@ public class BishopBlackTest {
     }
 
     @Test
-    public void WhenArray() {
+    public void whenArray() {
         BishopBlack bishop = new BishopBlack(Cell.C8);
         Cell[] expected = {D7, E6, F5, G4};
         Cell[] rsl = bishop.way(Cell.G4);
